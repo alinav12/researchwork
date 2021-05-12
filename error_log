@@ -1,0 +1,348 @@
+[23-Apr-2021 16:31:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/research/public_html/telegram.php on line 3
+[23-Apr-2021 16:32:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/research/public_html/telegram.php on line 3
+[23-Apr-2021 16:37:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/research/public_html/telegram.php on line 3
+[23-Apr-2021 16:54:09 UTC] PHP Fatal error:  Uncaught Error: Class 'TelegramBot\Api\Client' not found in /home2/research/public_html/telegram.php:21
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/telegram.php on line 21
+[23-Apr-2021 16:58:34 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(6): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 16:59:15 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(6): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 16:59:23 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(6): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 16:59:46 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(8): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 17:06:22 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(8): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 17:09:21 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(8): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 17:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(8): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 17:12:04 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(8): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 17:13:07 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitccf6fe63a50bba73f91155e4644815de' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/telegram.php(8): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 20:09:32 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home2/research/public_html/telegram.php on line 8
+[23-Apr-2021 20:09:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/research/public_html/telegram.php on line 8
+[23-Apr-2021 20:10:02 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home2/research/public_html/telegram.php on line 8
+[23-Apr-2021 20:10:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home2/research/public_html/telegram.php on line 8
+[23-Apr-2021 20:13:12 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\InvalidJsonException: Syntax error in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:279
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(99): TelegramBot\Api\BotApi::jsonValidate('user_name=s&use...', true)
+#1 /home2/research/public_html/telegram.php(35): TelegramBot\Api\Client->run()
+#2 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 279
+[23-Apr-2021 20:17:27 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\InvalidJsonException: Syntax error in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:279
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(99): TelegramBot\Api\BotApi::jsonValidate('user_name=s&use...', true)
+#1 /home2/research/public_html/telegram.php(35): TelegramBot\Api\Client->run()
+#2 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 279
+[23-Apr-2021 20:19:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home2/research/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/research/public_html/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/bootstrap/app.php on line 14
+[23-Apr-2021 20:19:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home2/research/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/research/public_html/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/bootstrap/app.php on line 14
+[23-Apr-2021 20:19:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home2/research/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/research/public_html/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/bootstrap/app.php on line 14
+[23-Apr-2021 20:19:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home2/research/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/research/public_html/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/bootstrap/app.php on line 14
+[23-Apr-2021 20:19:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home2/research/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/research/public_html/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/bootstrap/app.php on line 14
+[23-Apr-2021 20:19:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home2/research/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/research/public_html/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/research/public_html/bootstrap/app.php on line 14
+[23-Apr-2021 20:34:41 UTC] PHP Fatal error:  Uncaught Error: Class 'TelegramBot\Api\Client' not found in /home2/research/public_html/telegram.php:24
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/telegram.php on line 24
+[23-Apr-2021 20:36:56 UTC] PHP Fatal error:  Uncaught Error: Class 'TelegramBot\Api\Client' not found in /home2/research/public_html/telegram.php:24
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/telegram.php on line 24
+[23-Apr-2021 20:36:59 UTC] PHP Fatal error:  Uncaught Error: Class 'TelegramBot\Api\Client' not found in /home2/research/public_html/telegram.php:24
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/telegram.php on line 24
+[23-Apr-2021 20:39:53 UTC] PHP Fatal error:  Uncaught Error: Class 'TelegramBot\Api\Client' not found in /home2/research/public_html/telegram.php:24
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/telegram.php on line 24
+[23-Apr-2021 20:40:37 UTC] PHP Fatal error:  Uncaught Error: Class 'TelegramBot\Api\Client' not found in /home2/research/public_html/telegram.php:24
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/telegram.php on line 24
+[23-Apr-2021 20:43:29 UTC] PHP Fatal error:  Uncaught Error: Class 'TelegramBot\Api\Client' not found in /home2/research/public_html/telegram.php:24
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/telegram.php on line 24
+[23-Apr-2021 20:46:43 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home2/research/public_html/index.php on line 56
+[23-Apr-2021 20:46:47 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home2/research/public_html/index.php on line 56
+[23-Apr-2021 20:46:58 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home2/research/public_html/index.php on line 56
+[23-Apr-2021 21:06:14 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[23-Apr-2021 21:11:29 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: message text is empty in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #44, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(342): TelegramBot\Api\BotApi->call('sendMessage', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendMessage('@autopostingt', NULL)
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(26): TelegramBot\Api\Client->__call('sendMessage', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[23-Apr-2021 21:12:00 UTC] PHP Parse error:  syntax error, unexpected 'name' (T_STRING) in /home2/research/public_html/telegram.php on line 17
+[23-Apr-2021 21:12:08 UTC] PHP Parse error:  syntax error, unexpected 'name' (T_STRING) in /home2/research/public_html/telegram.php on line 17
+[23-Apr-2021 21:23:12 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: message text is empty in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #44, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(342): TelegramBot\Api\BotApi->call('sendMessage', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendMessage('@autopostingt', '')
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(23): TelegramBot\Api\Client->__call('sendMessage', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[23-Apr-2021 21:55:16 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: failed to get HTTP URL content in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #44, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(964): TelegramBot\Api\BotApi->call('sendPhoto', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendPhoto('@autopostingt', 'https://www.goo...', '1111')
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(28): TelegramBot\Api\Client->__call('sendPhoto', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[23-Apr-2021 21:57:03 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: wrong file identifier/HTTP URL specified in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #44, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(964): TelegramBot\Api\BotApi->call('sendPhoto', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendPhoto('@autopostingt', 'https://www.goo...', '1111')
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(28): TelegramBot\Api\Client->__call('sendPhoto', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[23-Apr-2021 21:57:13 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: there is no photo in the request in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #44, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(964): TelegramBot\Api\BotApi->call('sendPhoto', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendPhoto('@autopostingt', '', '1')
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(28): TelegramBot\Api\Client->__call('sendPhoto', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[23-Apr-2021 22:00:46 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: there is no photo in the request in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #44, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(964): TelegramBot\Api\BotApi->call('sendPhoto', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendPhoto('@autopostingt', '', '\xD0\x9B\xD1\x8F \xD0\xBB\xD1\x8F ')
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(28): TelegramBot\Api\Client->__call('sendPhoto', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[25-Apr-2021 13:55:23 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: message text is empty in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #44, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(342): TelegramBot\Api\BotApi->call('sendMessage', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendMessage('@autopostingt', '')
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(23): TelegramBot\Api\Client->__call('sendMessage', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[06-May-2021 11:53:23 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: message text is empty in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #42, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(342): TelegramBot\Api\BotApi->call('sendMessage', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendMessage('@autopostingt', NULL)
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(23): TelegramBot\Api\Client->__call('sendMessage', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[06-May-2021 11:53:25 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: message text is empty in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #42, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(342): TelegramBot\Api\BotApi->call('sendMessage', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendMessage('@autopostingt', NULL)
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(23): TelegramBot\Api\Client->__call('sendMessage', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[06-May-2021 11:53:31 UTC] PHP Fatal error:  Uncaught TelegramBot\Api\HttpException: Bad Request: message text is empty in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php:286
+Stack trace:
+#0 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(263): TelegramBot\Api\BotApi::curlValidate(Resource id #42, '{"ok":false,"er...')
+#1 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(232): TelegramBot\Api\BotApi->executeCurl(Array)
+#2 /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php(342): TelegramBot\Api\BotApi->call('sendMessage', Array)
+#3 [internal function]: TelegramBot\Api\BotApi->sendMessage('@autopostingt', NULL)
+#4 /home2/research/public_html/vendor/telegram-bot/api/src/Client.php(405): call_user_func_array(Array, Array)
+#5 /home2/research/public_html/telegram.php(23): TelegramBot\Api\Client->__call('sendMessage', Array)
+#6 {main}
+  thrown in /home2/research/public_html/vendor/telegram-bot/api/src/BotApi.php on line 286
+[09-May-2021 16:45:12 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 20
+[09-May-2021 16:46:52 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:21
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 21
+[09-May-2021 16:47:08 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 20
+[09-May-2021 16:47:28 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 20
+[09-May-2021 16:48:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 20
+[09-May-2021 16:51:49 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 22
+[09-May-2021 16:52:21 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 22
+[09-May-2021 16:53:49 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 27
+[09-May-2021 16:54:03 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 28
+[09-May-2021 16:55:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 28
+[09-May-2021 16:56:39 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 28
+[09-May-2021 16:57:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 28
+[09-May-2021 16:58:44 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\User' not found in /home2/research/public_html/newuser.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 28
+[09-May-2021 17:02:20 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Post' not found in /home2/research/public_html/newuser.php:29
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 29
+[09-May-2021 17:02:46 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Post' not found in /home2/research/public_html/newuser.php:29
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 29
+[09-May-2021 17:03:05 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Post' not found in /home2/research/public_html/newuser.php:29
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 29
+[09-May-2021 17:04:06 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Post' not found in /home2/research/public_html/newuser.php:29
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 29
+[09-May-2021 17:11:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\DB' not found in /home2/research/public_html/newuser.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 38
+[09-May-2021 17:16:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\DB' not found in /home2/research/public_html/newuser.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/research/public_html/newuser.php on line 38
+[09-May-2021 19:54:59 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[09-May-2021 19:55:02 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[09-May-2021 19:55:04 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[09-May-2021 19:55:04 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[09-May-2021 19:55:06 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[09-May-2021 19:55:08 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[09-May-2021 19:55:12 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
+[09-May-2021 19:55:13 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitc8e7b8e444861251a4ffdc804fe0d882' not found in /home2/research/public_html/vendor/autoload.php:7
+Stack trace:
+#0 /home2/research/public_html/index.php(34): require()
+#1 {main}
+  thrown in /home2/research/public_html/vendor/autoload.php on line 7
